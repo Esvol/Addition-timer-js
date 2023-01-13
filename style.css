@@ -1,0 +1,197 @@
+@import url(font-family.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.likeBody{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5, 13, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-top, .container-center, .container-bottom{
+    width: 99.8%;
+    height: 270px;
+    background-color: rgb(5, 14, 40);
+    outline: 1px solid rgb(96, 99, 106);
+    box-shadow: 10px 0px 10px rgb(28, 149, 173);
+}
+
+.container-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-center, .container-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-top-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-center-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+    width: 600px;
+    height: 100%;
+}
+
+.container-center-right{
+    color: rgb(81, 127, 180);
+    text-shadow: 0px 0px 4px rgb(246, 244, 241, 0.6);
+    font-family: 'digital-family';
+    padding-top: 15px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(245, 222, 178, 0.6);
+    width: 400px;
+    height: 200px;
+    background-color: rgb(11, 15, 38);
+}
+
+p{
+    color: rgb(81, 127, 180);
+    text-shadow: 0px 0px 5px rgb(246, 244, 241, 0.6);
+    font-family: 'digital-family';
+}
+
+.dateTime{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.hours{
+    font-size: 150px;
+    width: 150px;
+    text-align: right;
+}
+
+.seconds{
+    font-size: 150px;
+    width: 150px;
+}
+
+.minutes{
+    font-size: 150px;
+    text-align: center;
+    min-width: 20px;
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+}
+
+.start-button, .loop-button, .stop-button, .reset-button, .start-bottom-button, .loop-bottom-button, .stop-bottom-button, .reset-bottom-button{
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.container-secondomer{
+    font-size: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+
+.container-bottom-left, .container-bottom-right{
+    padding-top: 10px;
+    color: rgb(81, 127, 180);
+    text-shadow: 0px 0px 5px rgb(246, 244, 241, 0.6);
+    font-family: 'digital-family';
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-bottom-right{
+    width: 400px;
+}
+
+.number, .timer-bottom{
+    font-size: 120px;
+}
+
+.timer-bottom{
+    text-align: left;
+    width: 250px;
+    height: 120px;
+}
+
+.bottom-text{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.container-plus-minus{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+
+.plus-minus{
+    font-size: 45px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;   
+}
+
+div[name='button']{
+    color: rgb(81, 127, 180);
+    text-shadow: 0px 0px 5px rgb(246, 244, 241, 0.6);
+    font-family: 'digital-family';
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 0px 2px rgb(245, 222, 178, 0.6);
+    background-color: rgb(11, 15, 38);
+}
+
+.container-bottom-buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 330px;
+    height: 50px;
+}
+
